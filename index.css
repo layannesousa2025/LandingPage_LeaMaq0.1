@@ -203,15 +203,20 @@ h2 {
 }
 
 .logo a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: var(--dark);
-    letter-spacing: -1px;
 }
 
-.logo span {
-    color: var(--primary);
+.logo img {
+    height: 55px;
+    /* Altura ideal baseada no screenshot */
+    width: auto;
+    transition: var(--transition);
+}
+
+.logo a:hover img {
+    transform: scale(1.05);
 }
 
 .links-de-navegacao {
@@ -542,15 +547,25 @@ h2 {
     padding: 60px 0 30px;
 }
 
-.logo.do.rodapé {
-    font-size: 2rem;
-    font-weight: 800;
-    color: white;
+.logo-rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 
-.logo.do.rodapé span {
-    color: var(--primary);
+.logo-rodape img {
+    height: 80px;
+    /* Reduzido pois a nova imagem PNG é melhor recortada */
+    width: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    transition: var(--transition);
+}
+
+.logo-rodape img:hover {
+    transform: scale(1.05);
 }
 
 .rodapé hr {
@@ -608,6 +623,15 @@ h2 {
     /* Mostra menu quando ativo via JS */
     .alternancia-de-menu {
         display: block;
+    }
+
+    .logo a {
+        height: auto;
+    }
+
+    .logo img {
+        height: 45px;
+        /* Proporcional para o mobile */
     }
 
     .hero {
