@@ -72,4 +72,4 @@ Este projeto está sob a licença [Apache 2.0](LICENSE). Sinta-se à vontade par
 
 ---
 
-Feito com ❤️ por **Layanne Sousa**.
+
