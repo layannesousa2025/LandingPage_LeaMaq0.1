@@ -209,8 +209,8 @@ h2 {
 }
 
 .logo img {
-    height: 55px;
-    /* Altura ideal baseada no screenshot */
+    height: 80px;
+    /* Tamanho aumentado conforme solicitado */
     width: auto;
     transition: var(--transition);
 }
@@ -630,8 +630,8 @@ h2 {
     }
 
     .logo img {
-        height: 45px;
-        /* Proporcional para o mobile */
+        height: 60px;
+        /* Tamanho aumentado para mobile */
     }
 
     .hero {
