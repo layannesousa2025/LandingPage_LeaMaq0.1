@@ -103,10 +103,4 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
 
-    // Efeito de Título Rolante na Aba do Navegador
-    let textoTitulo = document.title + " | ";
-    setInterval(() => {
-        textoTitulo = textoTitulo.substring(1) + textoTitulo.substring(0, 1);
-        document.title = textoTitulo;
-    }, 300);
 });
