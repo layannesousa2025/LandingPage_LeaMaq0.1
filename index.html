@@ -8,8 +8,14 @@
     <meta name="description"
         content="Assistência técnica especializada em Brasília. Conserto de geladeiras, máquinas de lavar, freezers e muito mais. Agende sua visita!">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="Img/Logo-LeaMaq2.jpeg">
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ff7a00">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="L&A Maq">
+    <link rel="apple-touch-icon" href="Img/icon-192x192.png">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,7 +46,7 @@
     <nav class="barra-de-navegacao" id="barra-de-navegacao">
         <div class="container d-flex justify-between align-center">
             <div class="logo">
-                <a href="#"><img src="Img/Logo-LeaMaq.png" alt="L&A Maq Logo"></a>
+                <img src="./Img/Logo-LeaMaq.png" alt="img-log-lea">
             </div>
             <ul class="links-de-navegacao">
                 <li><a href="#inicio">Início</a></li>
@@ -129,7 +135,7 @@
     <section class="sobre preenchimento de seção" id="sobre">
         <div class="container d-flex alinhamento-centro lacuna-40">
             <div class="imagem-sobre">
-                <img src="./Img/logo3.png" alt="L&A Maq">
+                <img src="Img/Img-Caricutura.png" alt="L&A Maq">
             </div>
             <div class="conteúdo sobre">
                 <h2 class="título da seção">L&A <span style="color: #ff7a00;">Maq</span></h2>
@@ -154,7 +160,7 @@
             <div class="grade de serviços">
                 <!-- Card 1 -->
                 <div class="cartão de serviço">
-                    <img src="Img/img-side by side.png" alt="Geladeiras Side by Side">
+                    <img src="./Img/img-side by side.png" alt="Geladeiras Side by Side">
                     <div class="informações do serviço">
                         <h3>Side by Side</h3>
                         <p>Manutenção e reparo em refrigeradores de alto padrão.</p>
@@ -162,7 +168,7 @@
                 </div>
                 <!-- Card 2 -->
                 <div class="cartão de serviço">
-                    <img src="Img/img-geladeira.png" alt="Geladeiras">
+                    <img src="Img/Img-Geladeira.png" alt="Geladeiras">
                     <div class="informações do serviço">
                         <h3>Geladeiras</h3>
                         <p>Conserto de todos os modelos e marcas nacionais e importadas.</p>
@@ -170,7 +176,7 @@
                 </div>
                 <!-- Card 3 -->
                 <div class="cartão de serviço">
-                    <img src="Img/img-adega de vinho.png" alt="Adega de Vinho">
+                    <img src="./Img/img-adega de vinho.png" alt="Adega de Vinho">
                     <div class="informações do serviço">
                         <h3>Adega de Vinho</h3>
                         <p>Suporte técnico para manter seus vinhos na temperatura ideal.</p>
@@ -178,7 +184,7 @@
                 </div>
                 <!-- Card 4 -->
                 <div class="cartão de serviço">
-                    <img src="Img/Img-freezer-expositor.png" alt="Freezers">
+                    <img src="./Img/Img-freezer-expositor.png" alt="Freezers">
                     <div class="informações do serviço">
                         <h3>Freezers</h3>
                         <p>Reparo em freezers horizontais e verticais, domésticos ou comerciais.</p>
@@ -186,7 +192,7 @@
                 </div>
                 <!-- Card 5 -->
                 <div class="cartão de serviço">
-                    <img src="Img/Img Lava-Seca.png" alt="Máquina de Lavar">
+                    <img src="./Img/Img-Maquina.jpg" alt="Máquina de Lavar">
                     <div class="informações do serviço">
                         <h3>Máquina de Lavar</h3>
                         <p>Instalação e conserto de lavadoras de todas as marcas.</p>
@@ -194,7 +200,7 @@
                 </div>
                 <!-- Card 6 -->
                 <div class="cartão de serviço">
-                    <img src="Img/Img-Maquina.jpg" alt="Lava e Seca">
+                    <img src="./Img/Img Lava-Seca.png" alt="Lava e Seca">
                     <div class="informações do serviço">
                         <h3>Lava e Seca</h3>
                         <p>Técnicos especializados em sistemas integrados de lavagem.</p>
@@ -277,8 +283,7 @@
                     </div>
                 </div>
                 <div class="painel de formulário de contato">
-                    <form id="contactForm" action="https://formsubmit.co/lea.assistenciatecnica@gmail.com"
-                        method="POST">
+                    <form id="contactForm" action="https://formsubmit.co/layannesousa792@gmail.com" method="POST">
                         <!-- FormSubmit Configuration -->
                         <input type="hidden" name="_subject" value="Novo Orçamento - L&A Maq">
                         <input type="hidden" name="_template" value="table">
@@ -294,7 +299,7 @@
                             <textarea name="mensagem" placeholder="Sua Mensagem" rows="4" required></textarea>
                         </div>
                         <button type="submit" class="btn-primario">Enviar</button>
-                    </form>
+
                 </div>
             </div>
         </div>
@@ -303,9 +308,7 @@
     <!-- Rodapé -->
     <footer class="rodapé">
         <div class="container text-center">
-            <div class="logo-rodape">
-                <h3 style="font-size: 2rem; color: #fff;">Lea<span style="color: var(--primary);">Maq</span></h3>
-            </div>
+            <div class="logo do rodapé">L&A <span>Maq</span></div>
             <p>(61) 98665-4983</p>
             <p>lea.assistenciatecnica@gmail.com</p>
             <hr>
@@ -313,13 +316,24 @@
         </div>
     </footer>
 
-    <a href="https://wa.me/5561986654983?text=Gostaria%20de%20obter%20mais%20informações" class="fab-whatsapp"
+    <a href="https://wa.me/5561986654983?text=Fale com Conosco,%20Faça%20seu%20Orçamento" class="fab-whatsapp"
         target="_blank">
         <img src="Img/Img-Caricutura.png" alt="L&A Assistência Técnica">
         <div class="selo-whatsapp"><i class="fa-brands fa-whatsapp"></i></div>
     </a>
 
     <script src="main.js"></script>
+
+    <!-- Registro do Service Worker PWA -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('[PWA] Service Worker registrado:', reg.scope))
+                    .catch(err => console.log('[PWA] Erro ao registrar Service Worker:', err));
+            });
+        }
+    </script>
 </body>
 
 

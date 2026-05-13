@@ -1,4 +1,4 @@
-/* Design System LeaMaq - Sistema de Design da LeaMaq */
+/* Design System RefClim - Sistema de Design da RefClim */
 :root {
     /* Definição de Variáveis Globais (Cores, Fontes, Transições e Sombras) */
     --primary: #ff7a00;
@@ -203,20 +203,15 @@ h2 {
 }
 
 .logo a {
-    display: flex;
-    align-items: center;
     text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--dark);
+    letter-spacing: -1px;
 }
 
-.logo img {
-    height: 80px;
-    /* Tamanho aumentado conforme solicitado */
-    width: auto;
-    transition: var(--transition);
-}
-
-.logo a:hover img {
-    transform: scale(1.05);
+.logo span {
+    color: var(--primary);
 }
 
 .links-de-navegacao {
@@ -382,10 +377,7 @@ h2 {
 .cartão.de.serviço img {
     width: 100%;
     height: 220px;
-    object-fit: contain;
-    padding: 20px;
-    background-color: #ffffff;
-    transition: var(--transition);
+    object-fit: cover;
 }
 
 .informações.do.serviço {
@@ -547,25 +539,15 @@ h2 {
     padding: 60px 0 30px;
 }
 
-.logo-rodape {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.logo.do.rodapé {
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
     margin-bottom: 20px;
 }
 
-.logo-rodape img {
-    height: 80px;
-    /* Reduzido pois a nova imagem PNG é melhor recortada */
-    width: auto;
-    background: white;
-    padding: 10px;
-    border-radius: 8px;
-    transition: var(--transition);
-}
-
-.logo-rodape img:hover {
-    transform: scale(1.05);
+.logo.do.rodapé span {
+    color: var(--primary);
 }
 
 .rodapé hr {
@@ -623,15 +605,6 @@ h2 {
     /* Mostra menu quando ativo via JS */
     .alternancia-de-menu {
         display: block;
-    }
-
-    .logo a {
-        height: auto;
-    }
-
-    .logo img {
-        height: 60px;
-        /* Tamanho aumentado para mobile */
     }
 
     .hero {
