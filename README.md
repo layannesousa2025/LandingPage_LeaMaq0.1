@@ -19,7 +19,7 @@ Você pode visualizar o projeto online (se hospedado) ou clonando este repositó
 - **Animações de Revelação:** Elementos que surgem suavemente conforme o usuário faz o scroll (usando `Intersection Observer API`).
 - **Integração com WhatsApp:** Botão flutuante e chamadas para ação (CTAs) linkados diretamente ao app.
 - **Formulário de Contato Funcional:** Configurado com [FormSubmit](https://formsubmit.co/) para recebimento de e-mails.
-- **Menu Mobile Interativo:** Menu hambúrguer otimizado para navegação em dispositivos móveis.
+- **Menu Mobile Interativo:** Menu hambúrguer otimizado para navigation em dispositivos móveis.
 
 ---
 
@@ -59,7 +59,7 @@ O design foi focado em passar profissionalismo e confiança, utilizando uma pale
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/PROJETO.git
+   git clone https://github.com/layannesousa2025/LandingPage_LeaMaq0.1.git
    ```
 2. Navegue até a pasta do projeto.
 3. Abra o arquivo `index.html` em qualquer navegador ou utilize a extensão **Live Server** no VS Code para uma melhor experiência de desenvolvimento.
@@ -71,5 +71,3 @@ O design foi focado em passar profissionalismo e confiança, utilizando uma pale
 Este projeto está sob a licença [Apache 2.0](LICENSE). Sinta-se à vontade para usar e adaptar para seus próprios projetos.
 
 ---
-
-

@@ -1,0 +1,35 @@
+{
+  "name": "L&A Maq - Assistência Técnica",
+  "short_name": "L&A Maq",
+  "description": "Assistência técnica especializada em refrigeração e eletrodomésticos em Águas Lindas de Goiás - GO",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff7a00",
+  "orientation": "portrait-primary",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "Img/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "Img/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Agendar via WhatsApp",
+      "short_name": "WhatsApp",
+      "description": "Agende sua visita pelo WhatsApp",
+      "url": "https://wa.me/5561986654983?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20visita%21",
+      "icons": [{ "src": "Img/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["utilities", "business"]
+}
