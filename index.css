@@ -178,8 +178,8 @@ h2 {
 .topo-do-cabecalho {
     background-color: var(--dark);
     color: rgba(255, 255, 255, 0.8);
-    padding: 10px 0;
-    font-size: 0.85rem;
+    padding: 5px 0;
+    font-size: 0.8rem;
 }
 
 .informacoes-de-contato span {
@@ -194,7 +194,7 @@ h2 {
 /* Menu de Navegação */
 .barra-de-navegacao {
     background-color: var(--light);
-    padding: 15px 0;
+    padding: 5px 0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
     position: sticky;
     /* Fixa o menu no topo ao rolar a página */
@@ -209,8 +209,8 @@ h2 {
 }
 
 .logo img {
-    height: 55px;
-    /* Altura ideal baseada no screenshot */
+    height: 90px;
+    /* Tamanho aumentado conforme solicitado */
     width: auto;
     transition: var(--transition);
 }
@@ -329,6 +329,18 @@ h2 {
 }
 
 /* Seção Sobre Nós */
+.imagem-sobre {
+    flex: 1;
+}
+
+.conteúdo.sobre {
+    flex: 1.2;
+}
+
+.sobre .título.da.seção::after {
+    margin: 15px 0 25px;
+}
+
 .imagem-sobre img {
     width: 100%;
     border-radius: 20px;
@@ -630,8 +642,8 @@ h2 {
     }
 
     .logo img {
-        height: 45px;
-        /* Proporcional para o mobile */
+        height: 60px;
+        /* Tamanho aumentado para mobile */
     }
 
     .hero {

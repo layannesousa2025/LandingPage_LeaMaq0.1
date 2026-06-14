@@ -62,10 +62,10 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', () => {
         if (navbar) {
             if (window.scrollY > 50) {
-                navbar.style.padding = '10px 0';
+                navbar.style.padding = '2px 0';
                 navbar.style.boxShadow = '0 5px 15px rgba(0,0,0,0.1)';
             } else {
-                navbar.style.padding = '15px 0';
+                navbar.style.padding = '5px 0';
                 navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.05)';
             }
         }
@@ -102,4 +102,11 @@ document.addEventListener('DOMContentLoaded', () => {
         el.style.transition = 'all 0.6s ease-out';
         observer.observe(el);
     });
+
+    // Efeito de Título Rolante na Aba do Navegador
+    let textoTitulo = document.title + " | ";
+    setInterval(() => {
+        textoTitulo = textoTitulo.substring(1) + textoTitulo.substring(0, 1);
+        document.title = textoTitulo;
+    }, 300);
 });
