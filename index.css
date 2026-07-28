@@ -580,6 +580,36 @@ h2 {
     transform: scale(1.05);
 }
 
+.redes-sociais-rodape {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.rede-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.rede-social-link:hover {
+    transform: translateY(-5px) scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.link-whatsapp { color: #25d366; }
+.link-instagram { color: #E1306C; }
+.link-facebook { color: #1877F2; }
+
 .rodapé hr {
     border: none;
     border-top: 1px solid #333;
