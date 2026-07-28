@@ -813,9 +813,9 @@ h2 {
         left: 0;
         right: 0;
         z-index: 9998;
-        background: #fff;
+        background: #1a1a1a;
         border-top: 3px solid var(--primary);
-        box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.4);
         padding: 10px 0;
     }
 
@@ -827,7 +827,7 @@ h2 {
         justify-content: center;
         gap: 4px;
         text-decoration: none;
-        color: var(--dark);
+        color: #ffffff;
         font-size: 0.75rem;
         font-weight: 600;
         padding: 6px 0;
@@ -852,7 +852,7 @@ h2 {
     }
 
     .item.de.contato.mobile:active {
-        background: var(--bg-light);
+        background: rgba(255, 255, 255, 0.1);
     }
 
     /* Ajusta o botão flutuante do WhatsApp para não ficar em cima da barra */
